@@ -26,8 +26,13 @@ Can also be run from IDE by selecting Registration.feature and clicking play but
 
 ## Automation Framework
 Framework: Comprise of an Abstract class which instantiates a Common driver to be used across Page Objects class.
+
 Pages: Comprise of all page object models e.g. Register.page
-Runners: Contains a Cucumber Runner which glues Step Defs with Feature files and also configures the Output results
-Stepdefs: It comprises of methods that marry up with features and the classes in the other packages
+
+Runners: Contains a Cucumber Runner which glues Step Defs with Feature files and also configures the Output results.
+
+Stepdefs: It comprises of methods that marry up with features and the classes in the other packages.
+
 Common: It's a class to read the XML file available under resources folder.
+
 resources: Comprises of cucumber feature file as well as the data XML.
